@@ -1,26 +1,52 @@
 body {
-	background-color: white;
-	font-family: Helvetica;
+	font-family: Courier;
 }
 
-div.main-content {
-	width: 600px;
+.main-content {
+	width: 800px;
+	margin: auto;
+	padding: 100px 100px 10px 100px;
+	background-color: #03fcba;
+}
+
+.section {
+	margin-bottom: 60px; 
+}
+
+.header {
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.header h1 {
+	font-size: 100px;
+	margin-bottom: 0px; 
+}
+
+.footer {
+	margin-top: 100px;
+}
+
+.sub-header {
+	opacity: 50%;
+}
+
+.poem {
+	background-color: #edad18; 
+	text-align: center;
+	padding: 20px 100px;
+}
+
+.author {
+	padding-top: 10px;
+	font-style: italic;
+	text-align: right;
+}
+
+
+.cat-meme {
+	width: 400px;
 	margin: auto;
 }
 
-div.header {
-	font-family: Helvetica;
-	color: #2bab4d;
-	text-align: center;
-}
-
-h2 {
-	color: red;
-}
-
-div.poem {
-	padding-top: 100px;
-	padding-bottom: 100px;
-	background-color: orange;
-	font-family: Times;
-}
