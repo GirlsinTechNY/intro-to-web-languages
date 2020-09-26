@@ -1,0 +1,26 @@
+body {
+	background-color: white;
+	font-family: Helvetica;
+}
+
+div.main-content {
+	width: 600px;
+	margin: auto;
+}
+
+div.header {
+	font-family: Helvetica;
+	color: #2bab4d;
+	text-align: center;
+}
+
+h2 {
+	color: red;
+}
+
+div.poem {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: orange;
+	font-family: Times;
+}

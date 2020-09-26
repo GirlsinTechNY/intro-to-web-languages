@@ -1,0 +1,28 @@
+/*Make all text in any p tag red and bold*/
+p {
+	color: red;
+	font-weight: bold;
+}
+
+/*Align the text with class="to-the-right" to the right*/
+p.to-the-right {
+	text-align: right;
+}
+
+/*Center the text of all h1 and h2 elements*/
+h1, h2 {
+	text-align: center;
+}
+
+/*Make all divs with class="section" mave a margin*/
+div.section {
+	margin-bottom: 60px;
+}
+
+/*Make a div centered on the page*/
+/*HINT: must have a width*/
+div {
+	width: 600px;
+	margin: auto;
+}
+
